@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url("Images/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 113px;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* box2 */
+.f1 {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.f2 {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  text-align: center;
+}
+/* box3 */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(245, 202, 9);
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+
+/* box4 */
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.cart i {
+  font-size: 30px;
+}
+.cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/* panel */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-ops p {
+  display: inline;
+  margin-left: 10px;
+}
+.panel-ops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.panel-deal {
+  font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section{
+  background-image: url("/Images/hero_image.jpg");
+  height: 500px;
+  background-size: cover;
+}
+.hero-msg{
+  background-color: #f3f3f3;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
