@@ -130,7 +130,14 @@ span {
 }
 .panel-deal {
   font-weight: 700;
+  
 }
+.deal a{
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+}
+
 
 /* hero section */
 
